@@ -9,3 +9,8 @@
 body {
   @apply h-full bg-black w-full
 }
+
+@font-face {
+  font-family: 'Paradox';
+  src: url('./assets/fonts/Paradox.tff') format('truetype');
+}
