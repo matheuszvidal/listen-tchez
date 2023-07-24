@@ -9,7 +9,7 @@ function Footer() {
     <footer className='flex flex-col justify-center align-middle w-fit h-fit'>
       <img src={logo} className="w-36 mb-7" />
       <div className='flex align-middle gap-2 justify-center'>
-        <BiLogoSoundcloud className="text-white w-6 h-6 -mt-2"/>
+        <BiLogoSoundcloud className="text-white w-6 h-6 -mt-1.5"/>
         <BsInstagram className="text-white w-3 h-3"/>
         <SiBeatport className="text-white w-3 h-3"/>
         <BsSpotify className="text-white w-3 h-3"/>
