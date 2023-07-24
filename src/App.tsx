@@ -11,6 +11,7 @@ import { BsYoutube } from 'react-icons/bs';
 function App() {
   return (
     <>
+    <Header />
       <Hero />
       <Bar>
         <BiLogoSoundcloud className="text-black w-10 h-10"/>
