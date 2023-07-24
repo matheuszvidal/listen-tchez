@@ -7,6 +7,7 @@ import { BsInstagram } from 'react-icons/bs';
 import { SiBeatport } from 'react-icons/si';
 import { BsSpotify } from 'react-icons/bs';
 import { BsYoutube } from 'react-icons/bs';
+import Instagram from "./components/Instagram"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <BsSpotify className="text-black w-6 h-6"/>
         <BsYoutube className="text-black w-6 h-6"/>
       </Bar>
+      <Instagram />
       <div className="flex justify-center">
       <Footer />
       </div>

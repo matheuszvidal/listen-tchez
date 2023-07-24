@@ -9,7 +9,8 @@ function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between p-4 pt-4fixed top-0 w-full z-50">
+    <header 
+      className="flex items-center justify-between p-4 pt-4 sticky top-0 w-full bg-black">
       <img src={logo} alt="Logo Tchez" className="w-28" />
       <ul className="flex space-x-8">
         <li>
