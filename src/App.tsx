@@ -1,9 +1,12 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 
 function App() {
   return (
     <>
-      <Header />
+      <div className="flex justify-center">
+      <Footer />
+      </div>
     </>
   )
 }
