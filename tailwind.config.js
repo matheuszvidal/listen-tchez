@@ -5,11 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        paradox: ['Paradox', 'sans']
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
