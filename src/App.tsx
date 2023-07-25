@@ -8,6 +8,7 @@ import { SiBeatport } from 'react-icons/si';
 import { BsSpotify } from 'react-icons/bs';
 import { BsYoutube } from 'react-icons/bs';
 import PressKit from "./components/PressKit"
+import Carousel from "./components/Carousel"
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <BsYoutube className="text-black w-6 h-6"/>
       </Bar>
       <PressKit />
+      <div className="flex justify-center">
+      <Carousel />
+      </div>
       <div className="flex justify-center">
       <Footer />
       </div>
