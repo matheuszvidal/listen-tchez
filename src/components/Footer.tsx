@@ -2,6 +2,7 @@ import { BiLogoSoundcloud } from 'react-icons/bi'
 import { BsInstagram } from 'react-icons/bs';
 import { SiBeatport } from 'react-icons/si';
 import { BsSpotify } from 'react-icons/bs';
+import { BsYoutube } from 'react-icons/bs';
 import logo from '../assets/logo.png';
 
 function Footer() {
@@ -13,6 +14,7 @@ function Footer() {
         <BsInstagram className="text-white w-3 h-3"/>
         <SiBeatport className="text-white w-3 h-3"/>
         <BsSpotify className="text-white w-3 h-3"/>
+        <BsYoutube className="text-white w-3 h-3"/>
       </div>
     </footer>
   )
