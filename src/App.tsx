@@ -12,6 +12,7 @@ import Carousel from "./components/Carousel"
 import Instagram from "./components/Instagram"
 import SoundCloud from "./components/SoundCloud"
 import Beatport from "./components/BeatPort"
+import Spotify from "./components/Spotify"
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <Instagram />
       <SoundCloud />
       <Beatport />
+      <Spotify />
       <div className="flex justify-center">
         <Carousel />
       </div>
