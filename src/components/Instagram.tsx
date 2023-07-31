@@ -1,18 +1,19 @@
 import { InstagramEmbed,  } from "react-social-media-embed"
 
 function Instagram() {
+
   return (
-    <div className="flex items-center justify-center space-x-8 p-10">
-      <InstagramEmbed
-        url="https://www.instagram.com/p/CpldcoOP5dZ/"
-        height={530}
-        width={345}
-      />
-      <InstagramEmbed
-        url="https://www.instagram.com/p/CnvDeiXpIqd/"
-        width={345}
-        height={530}
-      />
+    <div className="bg-black w-full h-150 flex justify-center flex-wrap">
+      <div className="flex gap-9 flex-wrap items-center justify-center w-2/4 mb-10">
+        <InstagramEmbed
+          url="https://www.instagram.com/p/CpldcoOP5dZ/"
+          height={530}
+        />
+        <InstagramEmbed
+          url="https://www.instagram.com/p/CnvDeiXpIqd/"
+          height={530}
+        />
+      </div>
     </div>
   );
 }

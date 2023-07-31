@@ -1,4 +1,3 @@
-import React from 'react'
 import pressKit1 from '../assets/presskit1.jpg';
 import pressKit2 from '../assets/presskit2.jpg';
 import pressKit3 from '../assets/presskit3.jpg';
