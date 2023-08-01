@@ -7,6 +7,7 @@ function Beatport() {
         width="100%"
         height="162"
         style={{ maxWidth: "600px" }}
+        allow="autoplay"
       ></iframe>
       <iframe
         className="shadow-md"
