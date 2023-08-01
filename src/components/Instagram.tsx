@@ -3,7 +3,7 @@ import { InstagramEmbed,  } from "react-social-media-embed"
 function Instagram() {
 
   return (
-    <div className="bg-stone-950 w-full h-150 flex justify-center flex-wrap mt-7">
+    <div className="bg-zinc-900 w-full h-150 flex justify-center flex-wrap mt-7">
       <div className="flex gap-9 flex-wrap items-center justify-center w-2/4 mb-10">
         <InstagramEmbed
           url="https://www.instagram.com/p/CpldcoOP5dZ/"

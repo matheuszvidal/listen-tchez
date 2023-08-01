@@ -3,7 +3,7 @@ import blackwhite2 from '../assets/blacwhite2.jpg';
 
 function SoundCloud() {
   return (
-    <div className="flex justify-center p-10 flex-wrap bg-white">
+    <div className="flex justify-center p-10 flex-wrap bg-zinc-200">
       <h2 className="w-full text-center text-xl underline text-custom text-black m-5">Live Recorded | Taurus(Original Mix) Promo Cut</h2>
       <iframe
         width="100%"
