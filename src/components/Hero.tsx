@@ -1,9 +1,17 @@
-import tchezgif from '../assets/tchez.gif';
+import tchezvideo from '../assets/tchezvideo.mp4';
 
 function Hero() {
   return (
     <div>
-      <img src={tchezgif} className='w-full h-56' alt="Tchez remixando músicas em uma boate" />
+      <video
+        autoPlay
+        muted
+        loop
+        className="w-full h-96 object-cover"
+      >
+        <source src={tchezvideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   )
 }
