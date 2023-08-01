@@ -38,7 +38,7 @@ function App() {
       </Bar>
       <PressKit />
       <Bar>
-        <p className="underline">ME SIGA NO INSTAGRAM</p>
+        <p className="underline font-custom text-xl">ME SIGA NO INSTAGRAM</p>
       </Bar>
       <Instagram />
       <SoundCloud />
