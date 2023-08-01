@@ -5,7 +5,6 @@ function Contact() {
   return (
     <div>
       <Header />
-
       <div className="flex justify-center">
         <Footer />
       </div>

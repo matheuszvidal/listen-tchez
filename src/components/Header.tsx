@@ -1,13 +1,7 @@
-import { useState } from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const [isActive, setIsActive] = useState(0);
-
-  const toggleMenu = (value: number) => {
-    setIsActive(value);
-  };
 
   return (
     <header className="flex items-center justify-between p-4 pt-4 sticky top-0 w-full bg-black">
@@ -18,10 +12,10 @@ function Header() {
         <li>
           <Link
             to="/sobre"
-            className={`text-slate-100 text-2xl ${
-              isActive === 1 ? "border-b-2" : ""
-            }`}
-            onClick={() => toggleMenu(1)}
+            // className={`text-slate-100 text-2xl ${
+            //   active === 1 ? "border-b-2" : ""
+            // }`}
+            className="text-slate-100 text-2xl"
           >
             Sobre
           </Link>
@@ -29,10 +23,10 @@ function Header() {
         <li>
           <Link
             to="/contato"
-            className={`text-slate-100 text-2xl ${
-              isActive === 2 ? "border-b-2" : ""
-            }`}
-            onClick={() => toggleMenu(2)}
+            // className={`text-slate-100 text-2xl ${
+            //   active === 2 ? "border-b-2" : ""
+            // }`}
+            className="text-slate-100 text-2xl"
           >
             Contato
           </Link>

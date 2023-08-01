@@ -5,7 +5,6 @@ function About() {
   return (
     <div>
       <Header />
-
       <div className="flex justify-center">
         <Footer />
       </div>
