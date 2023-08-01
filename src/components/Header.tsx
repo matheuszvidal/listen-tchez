@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function Header() {
 
   return (
-    <header className="flex items-center justify-between p-4 pt-4 sticky top-0 w-full bg-black">
+    <header className="flex items-center justify-between p-20 pb-4 pt-4 sticky top-0 w-full bg-black">
       <Link to="/">
         <img src={logo} alt="Logo Tchez" className="w-28" />
       </Link>
-      <ul className="flex space-x-8">
+      <ul className="flex space-x-16">
         <li>
           <Link
             to="/sobre"
