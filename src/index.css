@@ -9,3 +9,7 @@
 body {
   @apply h-full bg-black w-full
 }
+
+.instagram-media .caption {
+  display: none;
+}
