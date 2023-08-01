@@ -40,10 +40,10 @@ function App() {
       <Instagram />
       <SoundCloud />
       <Beatport />
-      <Spotify />
       <div className="flex justify-center">
         <Carousel />
       </div>
+      <Spotify />
     </>
   );
 }
