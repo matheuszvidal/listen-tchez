@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  @apply h-full bg-black w-full
+  @apply h-full bg-stone-950 w-full
 }
 
 body {
-  @apply h-full bg-black w-full
+  @apply h-full bg-stone-950 w-full
 }
 
 .instagram-media .caption {

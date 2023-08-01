@@ -7,7 +7,7 @@ import logo from '../assets/logo.png';
 
 function Footer() {
   return (
-    <footer className="flex flex-col justify-center align-middle w-fit h-fit mt-5 mb-2">
+    <footer className="bg-stone-950 flex flex-col justify-center align-middle w-fit h-fit mt-5 mb-2">
       <img src={logo} className="w-36 mb-7" />
       <div className="flex align-middle gap-2 justify-center">
         <a href="https://soundcloud.com/listentchez" target="_black">
