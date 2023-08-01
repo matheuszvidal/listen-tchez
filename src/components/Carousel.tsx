@@ -8,7 +8,7 @@ import presskit3 from '../assets/presskit3.jpg'
 function Carousel() {
   return (
     <div className=" w-full h-96 flex justify-center items-center p-10 bg-white">
-      <AwesomeSlider className=" w-10/12 h-3/4">
+      <AwesomeSlider className=" w-10/12 h-3/4 max-w-screen-sm">
         <div data-src={presskit1} />
         <div data-src={presskit2} />
         <div data-src={presskit3} />
