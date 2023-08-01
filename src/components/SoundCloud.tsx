@@ -1,6 +1,6 @@
 function SoundCloud() {
   return (
-    <div className="flex justify-center p-10">
+    <div className="flex justify-center p-10 bg-zinc-200">
       <iframe
         width="100%"
         height="166"
