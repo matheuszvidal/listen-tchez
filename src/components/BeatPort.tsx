@@ -19,7 +19,7 @@ function Beatport() {
         height="162"
         style={{ maxWidth: "600px" }}
       ></iframe>
-      <img src={greenimg} className="h-96 w-1/3 object-cover" alt="" />
+      <img src={greenimg} className="md:h-96 md:w-1/3 object-cover" alt="" />
       <p className='text-zinc-200 text-sm bg-zinc-900 font-custom -mt-8'>
         Veja mais em {" "}
         <a className='underline' href="https://grve.com.br/2023/04/tchez-ep-lunar/" target="_blank">https://grve.com.br/2023/04/tchez-ep-lunar/</a>
