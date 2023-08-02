@@ -5,7 +5,7 @@ import pressKit4 from '../assets/presskit4.jpg';
 
 function PressKit() {
   return (
-    <div className="bg-zinc-900 w-full h-150 flex justify-center flex-wrap">
+    <div className="bg-zinc-900 flex flex-col items-center justify-center">
       <h2 className="text-white font-custom text-2xl underline w-full text-center m-5">Presskit</h2>
       <div className="flex gap-9 flex-wrap items-center justify-center w-2/4 mb-10">
         <img src={pressKit1} className=" w-80 h-64" alt="Uma foto de um show, com o DJ Tchez tocando!"/>

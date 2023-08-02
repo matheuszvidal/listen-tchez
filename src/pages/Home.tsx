@@ -17,24 +17,27 @@ function App() {
     <>
       <Hero />
       <Bar>
-        <a href="https://soundcloud.com/listentchez" target="_black">
-          <BiLogoSoundcloud className="text-black w-10 h-10" />
+        <div className="gap-16 flex align-center justify-center items-center shadow-md">
+         <a href="https://soundcloud.com/listentchez" target="_black">
+          <BiLogoSoundcloud className="text-zinc-900 w-10 h-10" />
         </a>
         <a href="https://www.instagram.com/listentchez" target="_black">
-          <BsInstagram className="text-black w-6 h-6" />
+          <BsInstagram className="text-zinc-900 w-6 h-6" />
         </a>
         <a href="https://www.beatport.com/artist/tchez/859672" target="_blank">
-          <SiBeatport className="text-black w-6 h-6" />
+          <SiBeatport className="text-zinc-900 w-6 h-6" />
         </a>
         <a
           href="https://open.spotify.com/intl-pt/artist/4aTIz0KXd6u04mfDuKMn56?si=3zhbScMbRkGQXpPSHMVBRQ"
           target="_blank"
         >
-          <BsSpotify className="text-black w-6 h-6" />
+          <BsSpotify className="text-zinc-900 w-6 h-6" />
         </a>
         <a href="https://www.youtube.com/@tchez1549" target="_blank">
-          <BsYoutube className="text-black w-6 h-6" />
+          <BsYoutube className="text-zinc-900 w-6 h-6" />
         </a>
+
+        </div>
       </Bar>
       <PressKit />
       <Bar>

@@ -2,6 +2,7 @@ function Spotify() {
   return (
     <div className="flex flex-wrap justify-center items-center gap-8 bg-zinc-900 p-10">
       <iframe
+        className="shadow-xl"
         style={{ borderRadius: "12px", maxWidth: "600px" }}
         src="https://open.spotify.com/embed/artist/4aTIz0KXd6u04mfDuKMn56?utm_source=generator&theme=0"
         width="100%"
