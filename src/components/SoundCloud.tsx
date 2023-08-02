@@ -13,10 +13,10 @@ function SoundCloud() {
         style={{ maxWidth: "600px" }}
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1538055250&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       ></iframe>
-      <div className="flex gap-20 justify-center h-fit">
-      <img className='h-96 w-96 object-cover' src={blackwhite1} alt="" />
+      <div className="flex md:gap-20 sm:!gap-10 justify-center h-fit">
+      <img className='md:h-96 md:w-96 sm:h-56 sm:w-56 object-cover' src={blackwhite1} alt="" />
       <br></br>
-      <img className=' h-96 w-96 object-cover' src={blackwhite2} alt="" />
+      <img className='md:h-96 md:w-96 sm:h-56 sm:w-56 object-cover' src={blackwhite2} alt="" />
       </div>
       <div
         style={{
