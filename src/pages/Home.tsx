@@ -17,7 +17,7 @@ function App() {
     <>
       <Hero />
       <Bar>
-        <div className="gap-16 flex align-center justify-center items-center shadow-md">
+        <div className="gap-10 flex align-center justify-center items-center shadow-md">
          <a href="https://soundcloud.com/listentchez" target="_black">
           <BiLogoSoundcloud className="text-zinc-900 w-10 h-10" />
         </a>

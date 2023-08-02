@@ -33,7 +33,7 @@ function Footer() {
 
      </footer>
      <div>
-        <p className="text-zinc-400 text-xs m-6">
+        <p className="text-zinc-400 text-xs m-4">
             Copyright ©️  2023 Tchez - Todos os Direitos reservados.
         </p>
 	 </div>

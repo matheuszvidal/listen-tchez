@@ -8,10 +8,10 @@ function PressKit() {
     <div className="bg-zinc-900 flex flex-col items-center justify-center">
       <h2 className="text-white font-custom text-2xl underline w-full text-center m-5">Presskit</h2>
       <div className="flex gap-9 flex-wrap items-center justify-center w-2/4 mb-10">
-        <img src={pressKit1} className=" w-80 h-64" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
-        <img src={pressKit2} className=" w-80 h-64" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
-        <img src={pressKit3} className=" w-80 h-64" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
-        <img src={pressKit4} className=" w-80 h-64" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
+        <img src={pressKit1} className=" w-80" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
+        <img src={pressKit2} className=" w-80" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
+        <img src={pressKit3} className=" w-80" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
+        <img src={pressKit4} className=" w-80" alt="Uma foto de um show, com o DJ Tchez tocando!"/>
       </div>
     </div>
   )
