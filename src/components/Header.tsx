@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="flex items-center md:items-start md:flex-row justify-between p-20 z-50 pb-4 pt-4 sticky top-0 w-full bg-black shadow-xl">
-      {/* O link está criando um box invisivel */}
-      <Link to="/" className="">
+      {/* O link está criando um box invisivel */}  
+      <Link to="/" className="absolute">
         <img
           src={logo}
           alt="Logo Tchez"
           className="md:w-28 w-36 md:-ml-0 -ml-14"
         />
       </Link>
-      <ul className="md:flex md:space-x-16 flex justify-around">
+      <ul className="md:flex md:space-x-16 ml-32 md:text-2xl gap-5 flex justify-around">
         <li>
-          <Link to="/sobre" className="text-slate-100 text-2xl relative group">
+          <Link to="/sobre" className="text-slate-100 text-xl relative group">
             Sobre
             <div className="bar hidden group-hover:block bg-white h-0.5 w-full transform origin-left transition-all duration-300 ease-in-out" />
           </Link>
@@ -22,7 +22,7 @@ function Header() {
         <li>
           <Link
             to="/contato"
-            className="text-slate-100 text-2xl relative group"
+            className="text-slate-100 text-xl md:text-2xl relative group"
           >
             Contato
             <div className="bar hidden group-hover:block bg-white h-0.5 w-full transform origin-left transition-all duration-300 ease-in-out" />

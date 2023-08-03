@@ -11,6 +11,7 @@ import Instagram from "../components/Instagram";
 import SoundCloud from "../components/SoundCloud";
 import Beatport from "../components/BeatPort";
 import Spotify from "../components/Spotify";
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
       </Bar>
       <PressKit />
       <Bar>
-        <p className="underline font-custom text-xl">ME SIGA NO INSTAGRAM</p>
+        <Link to="" className="underline font-custom text-xl">ME SIGA NO INSTAGRAM</Link>
       </Bar>
       <Instagram />
       <SoundCloud />
