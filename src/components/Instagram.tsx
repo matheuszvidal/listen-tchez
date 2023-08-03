@@ -21,7 +21,7 @@ import { InstagramEmbed,  } from "react-social-media-embed"
 
 function Instagram() {
   return (
-    <div className="flex items-center justify-center space-x-8 p-10">
+    <div className="flex flex-wrap gap-10 items-start justify-center space-x-8 p-10">
       <blockquote
         className="instagram-media"
         data-instgrm-permalink="https://www.instagram.com/p/ChBNDvvFWD-/?utm_source=ig_embed&amp;utm_campaign=loading"
