@@ -1,5 +1,3 @@
-import { InstagramEmbed,  } from "react-social-media-embed"
-
 // function Instagram() {
 
 //   return (
