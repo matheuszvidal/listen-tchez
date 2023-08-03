@@ -5,15 +5,22 @@ function Contact() {
   return (
     <div>
       <Header />
-      <div className=" m-32">
-      <h1 className="text-slate-50 text-2xl font-custom">Contato</h1>
-      <p className="text-slate-50 text-justify font-custom">Empresário</p>
-      </div>
-      <div className="flex justify-center">
+      <main className="m-28">
+        <h1 className="text-zinc-200 text-4xl font-custom mb-10">Contato</h1>
+        <address className="text-zinc-200 text-xl text-justify font-custom">
+          Email:{" "}
+          <a href="mailto:tchezpastorello@gmail.com">
+            tchezpastorello@gmail.com
+          </a>
+          <br />
+          Telefone: (65)99605-9859
+        </address>
+      </main>
+      <footer className="flex justify-center">
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 }
 
-export default Contact
+export default Contact;
