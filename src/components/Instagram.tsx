@@ -18,7 +18,7 @@
 // export default Instagram
 function Instagram() {
   return (
-    <div className="flex flex-wrap items-center justify-center space-x-8 p-10">
+    <div className="flex flex-wrap flex-col items-center justify-center space-x-8 p-10">
       <blockquote
         className="instagram-media"
         data-instgrm-permalink="https://www.instagram.com/p/CrjwfTcsOi7/?utm_source=ig_embed&amp;utm_campaign=loading"
