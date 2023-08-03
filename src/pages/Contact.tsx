@@ -5,11 +5,11 @@ function Contact() {
   return (
     <div>
       <Header />
-      <main className="m-5 flex flex-col items-center justify-center md:m-28">
+      <main className="m-5 flex flex-col items-center md:items-start justify-center md:m-28">
         <h1 className="text-zinc-200 text-2xl mb-10 md:text-4xl font-custom md:mb-10">
           Contato
         </h1>
-        <address className="text-zinc-200 m-5 text-lg md:text-xl text-justify font-custom mb-44">
+        <address className="text-zinc-200 m-5 text-lg md:text-xl md:m-0 lg:mb-48 text-justify font-custom mb-44">
           Email:{" "}
           <a href="mailto:tchezpastorello@gmail.com">
             tchezpastorello@gmail.com
