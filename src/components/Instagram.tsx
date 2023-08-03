@@ -1,24 +1,3 @@
-import { InstagramEmbed,  } from "react-social-media-embed"
-
-// function Instagram() {
-
-//   return (
-//     <div className="bg-zinc-900 w-full h-150 flex justify-center flex-wrap mt-7">
-//       <div className="flex gap-9 flex-wrap items-center justify-center w-2/4 mb-10">
-//         <InstagramEmbed
-//           url="https://www.instagram.com/p/CrjwfTcsOi7/"
-//           height={530}
-//         />
-//         <InstagramEmbed
-//           url="https://www.instagram.com/p/CnvDeiXpIqd/"
-//           height={530}
-//         />
-//       </div>
-//     </div>
-//   );
-// }
-// export default Instagram
-
 function Instagram() {
   return (
     <div className="flex flex-wrap gap-10 items-start justify-center space-x-8 p-10">
