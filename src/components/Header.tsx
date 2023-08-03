@@ -3,15 +3,16 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="flex flex-col items-center md:flex-row justify-between p-20 z-50 pb-4 pt-4 sticky top-0 w-full bg-black shadow-xl">
-      <Link to="/">
+    <header className="flex items-center md:items-start md:flex-row justify-between p-20 z-50 pb-4 pt-4 sticky top-0 w-full bg-black shadow-xl">
+      {/* O link está criando um box invisivel */}
+      <Link to="/" className="">
         <img
           src={logo}
           alt="Logo Tchez"
           className="md:w-28 w-36 md:-ml-0 -ml-14"
         />
       </Link>
-      <ul className="md:flex md:space-x-16">
+      <ul className="md:flex md:space-x-16 flex justify-around">
         <li>
           <Link to="/sobre" className="text-slate-100 text-2xl relative group">
             Sobre
