@@ -7,7 +7,7 @@ function Hero() {
         autoPlay
         muted
         loop
-        playsinline        
+        playsInline        
         className="w-full h-96 object-cover"
       >
         <source src={tchezvideo} type="video/mp4" />
