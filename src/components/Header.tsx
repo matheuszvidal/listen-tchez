@@ -12,7 +12,7 @@ function Header() {
           className="md:w-28 w-36 md:-ml-0 -ml-14"
         />
       </Link>
-      <ul className="md:flex md:space-x-16 ml-32 md:text-2xl gap-5 flex md:justify-around">
+      <ul className="md:flex esm:space-x-6 md:space-x-16 ml-32 sm md:text-2xl gap-5 flex md:justify-around">
         <li>
           <Link
             to="/sobre"

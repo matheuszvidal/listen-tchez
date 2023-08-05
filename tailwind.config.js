@@ -10,6 +10,13 @@ export default {
         custom: ['"Lexend"', 'sans-serif'],
       }
     },
+    screens: {
+      'esm': '400px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1200px', 
+    }
   },
   plugins: [],
 }
