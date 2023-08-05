@@ -6,17 +6,17 @@ function SoundCloud() {
   return (
     <div className="flex justify-center p-8 items-center flex-col bg-zinc-200">
       <Link
-        to="https://soundcloud.com/listentchez/tchez-the-after-anna-nuun-garden"
+        to="https://on.soundcloud.com/QE38MHtSKcYzNmyi6"
         className="w-full text-center text-2xl underline text-custom text-black mb-3 cursor-pointer"
       >
-        Tchez @ The After (ANNA) - Nuun Garden
+        Ouça meus sets no SoundCloud!
       </Link>
       <iframe
         width="100%"
         height="166"
         allow="autoplay"
         className="m-5 mb-10 w-full shadow-xl"
-        style={{ maxWidth: "750px" }}
+        style={{ maxWidth: "800px" }}
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1198342570&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       ></iframe>
       <div className="flex gap-10 justify-center h-fit">
