@@ -1,17 +1,17 @@
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import presskit1 from '../assets/presskit1.jpg'
-import presskit2 from '../assets/presskit2.jpg'
-import presskit3 from '../assets/presskit3.jpg'
+import Carousel1 from '../assets/Carousel1.jpg'
+import Carousel2 from '../assets/Carousel2.jpg'
+import Carousel3 from '../assets/Carousel3.jpg'
 
 
 function Carousel() {
   return (
     <div className=" w-full h-96 flex justify-center items-center p-10 bg-zinc-200 shadow-xl">
-      <AwesomeSlider className="w-10/12 h-3/4 max-w-screen-lg">
-        <div data-src={presskit1} />
-        <div data-src={presskit2} />
-        <div data-src={presskit3} />
+      <AwesomeSlider className="h-5/6 max-w-screen-lg">
+        <div data-src={Carousel1} />
+        <div data-src={Carousel2} />
+        <div data-src={Carousel3} />
       </AwesomeSlider>
     </div>
   );
