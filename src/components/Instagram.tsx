@@ -3,7 +3,7 @@ function Instagram() {
     <div className="flex flex-wrap gap-10 items-start justify-center space-x-8 p-10">
       <blockquote
         className="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/p/CrjwfTcsOi7/?utm_source=ig_embed&amp;utm_campaign=loading"
+        data-instgrm-permalink="https://www.instagram.com/reel/CuFsEVgvzAz/?utm_source=ig_embed&amp;utm_campaign=loading"
         data-instgrm-version="14"
         style={{
           background: "#FFF",
@@ -20,7 +20,7 @@ function Instagram() {
         <div style={{ padding: "16px" }}>
           {" "}
           <a
-            href="https://www.instagram.com/p/CrjwfTcsOi7/?utm_source=ig_embed&amp;utm_campaign=loading"
+            href="https://www.instagram.com/reel/CuFsEVgvzAz/?utm_source=ig_embed&amp;utm_campaign=loading"
             style={{
               background: "#FFFFFF",
               lineHeight: "0",
@@ -274,7 +274,7 @@ function Instagram() {
             }}
           >
             <a
-              href="https://www.instagram.com/p/CrjwfTcsOi7/?utm_source=ig_embed&amp;utm_campaign=loading"
+              href="https://www.instagram.com/reel/CuFsEVgvzAz/?utm_source=ig_embed&amp;utm_campaign=loading"
               style={{
                 color: "#c9c8cd",
                 fontFamily: "Arial, sans-serif",
