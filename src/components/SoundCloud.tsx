@@ -3,10 +3,13 @@ import blackwhite1 from "../assets/blackwhite1.jpg";
 import blackwhite2 from "../assets/blacwhite2.jpg";
 
 function SoundCloud() {
+  const linkToSoundCloudTitle = 'https://on.soundcloud.com/BJe9jaUN3eu1f2Ms9';
+  const iframeToSoundCloud = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1649325378&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
+
   return (
     <div className="flex justify-center p-8 items-center flex-col bg-zinc-200">
       <Link
-        to="https://on.soundcloud.com/QE38MHtSKcYzNmyi6"
+        to={linkToSoundCloudTitle}
         className="w-full text-center text-2xl underline text-custom text-black mb-3 cursor-pointer"
       >
         Ouça meus sets no SoundCloud!
@@ -17,7 +20,7 @@ function SoundCloud() {
         allow="autoplay"
         className="m-5 mb-10 w-full shadow-xl"
         style={{ maxWidth: "800px" }}
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1198342570&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        src={iframeToSoundCloud}
       ></iframe>
       <div className="flex gap-10 justify-center h-fit">
         <img
