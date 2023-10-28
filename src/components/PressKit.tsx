@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import pressKit1 from '../assets/presskit1.jpg';
-import pressKit2 from '../assets/presskit2.jpg';
-import pressKit3 from '../assets/presskit3.jpg';
-import pressKit4 from '../assets/presskit4.jpg';
+import pressKit1 from '../assets/presskit1.webp';
+import pressKit2 from '../assets/presskit2.webp';
+import pressKit3 from '../assets/presskit3.webp';
+import pressKit4 from '../assets/presskit4.webp';
 
 function PressKit() {
   return (
