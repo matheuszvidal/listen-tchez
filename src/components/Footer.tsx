@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div>
       <footer className="bg-zinc-900 flex flex-col justify-center items-center mt-5 mb-2">
-        <img src={logo} className="w-56 mb-5" />
+        <img src={logo} className="w-56 mb-5" alt="logo_do_DJ_tchez" />
         <div className="flex gap-5 justify-center">
           <a href="https://soundcloud.com/listentchez" target="_black">
             <BiLogoSoundcloud className="text-zinc-200 w-10 h-10 -mt-1.5" />
