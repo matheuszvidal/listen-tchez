@@ -3,8 +3,8 @@ import blackwhite1 from "../assets/blackwhite1.jpg";
 import blackwhite2 from "../assets/blacwhite2.jpg";
 
 function SoundCloud() {
-  const linkToSoundCloudTitle = 'https://on.soundcloud.com/BJe9jaUN3eu1f2Ms9';
-  const iframeToSoundCloud = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1649325378&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
+  const linkToSoundCloudTitle = 'https://soundcloud.com/listentchez/tchez-universo-paralello-17';
+  const iframeToSoundCloud = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1718496087&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true';
 
   return (
     <div className="flex justify-center p-8 items-center flex-col bg-zinc-200">
