@@ -293,7 +293,7 @@ function Instagram() {
       </blockquote>
       <blockquote
         className="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/p/CnvDeiXpIqd/?utm_source=ig_embed&amp;utm_campaign=loading"
+        data-instgrm-permalink="https://www.instagram.com/p/C0C5m_hveY_/?utm_source=ig_embed&amp;utm_campaign=loading"
         data-instgrm-version="14"
         style={{
           background: "#FFF",
@@ -310,7 +310,7 @@ function Instagram() {
         <div style={{ padding: "16px" }}>
           {" "}
           <a
-            href="https://www.instagram.com/p/CnvDeiXpIqd/?utm_source=ig_embed&amp;utm_campaign=loading"
+            href="https://www.instagram.com/p/C0C5m_hveY_/?utm_source=ig_embed&amp;utm_campaign=loading"
             style={{
               background: "#FFFFFF",
               lineHeight: "0",
